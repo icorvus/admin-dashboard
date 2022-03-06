@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+.side-bar li {
+  list-style-type: none;
+}
+
+.side-bar ul, .side-bar li {
+  padding: 0;
+  margin: 0;
+}
+
+.side-bar {
+  background-color: #0091d0;
+  color: white;
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: 75px 35px auto 35px auto 1fr;
+}
+
+.side-bar > * {
+  margin-left: 20px;
+}
+
+.nav1, .nav2 {
+  font-size: 1.5rem;
+}
+
+.nav1 {
+  grid-row: 3 / span 1;
+}
+
+.nav2 {
+  grid-row: 5 / span 1;
+}
+
+.logo {
+  font-size: 2rem;
+  align-self: center;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
