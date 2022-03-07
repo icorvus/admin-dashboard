@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html {
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
 body {
   min-height: 100vh;
 }
@@ -5,7 +11,7 @@ body {
 .container {
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -18,28 +24,30 @@ body {
   margin: 0;
 }
 
+.side-bar li {
+  padding-left: 20px;
+}
+
 .side-bar {
   background-color: #0091d0;
   color: white;
   grid-row: span 2;
   display: grid;
-  grid-template-rows: 75px 35px auto 35px auto 1fr;
+  grid-template-rows: 100px auto 35px auto 1fr;
+  font-weight: bold;
 }
 
-.side-bar > * {
-  margin-left: 20px;
-}
 
 .nav1, .nav2 {
   font-size: 1.5rem;
 }
 
 .nav1 {
-  grid-row: 3 / span 1;
+  grid-row: 2 / span 1;
 }
 
 .nav2 {
-  grid-row: 5 / span 1;
+  grid-row: 4 / span 1;
 }
 
 .logo {
@@ -47,8 +55,33 @@ body {
   align-self: center;
 }
 
-li {
-  display: flex;
+.side-bar ul {
+  display: grid;
+}
+
+.side-bar li {
+  display: grid;
   align-items: center;
+  grid-template-columns: 24px 1fr;
+  padding: 7px 0 7px 20px;
   gap: 20px;
+  cursor: pointer;
+}
+
+.side-bar li:hover {
+  color: #0091d0;
+  background-color: white;
+}
+
+.logo-svg {
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  display: grid;
+  padding-left: 10px;
+  align-items: center;
+  grid-template-columns: 48px 1fr;
+  gap: 10px;
 }
