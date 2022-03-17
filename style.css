@@ -88,7 +88,6 @@ html {
   grid-template-columns: 1fr 400px;
   grid-template-rows: 5fr 15px minmax(100px, 8fr);
   padding: 20px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
   position: relative;
   z-index: 10;
 }
@@ -319,4 +318,11 @@ html {
 
 .trending-user .user-name {
   align-self: end;
+}
+
+.card,
+.header,
+.news-box,
+.trending-box {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
 }
