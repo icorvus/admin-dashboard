@@ -89,17 +89,17 @@ body {
 .header {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 5fr 8fr;
 }
 
 .search input[type="text"] {
   background-color: #e2e7f0;
-  width: 95%;
   border: none;
   border-radius: 50px;
   padding: 5px 10px;
   font-size: 1.25rem;
   grid-column: 3 / span 1;
+  margin: 0 20px 0 10px;
 }
 
 .search svg {
@@ -110,7 +110,6 @@ body {
   display: grid;
   grid-template-columns: 30px 24px 1fr;
   align-items: center;
-  gap: 10px
 }
 
 .upper-user {
