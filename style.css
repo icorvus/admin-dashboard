@@ -89,7 +89,7 @@ body {
 .header {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: 2fr 3fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .search input[type="text"] {
@@ -111,4 +111,25 @@ body {
   grid-template-columns: 30px 24px 1fr;
   align-items: center;
   gap: 10px
+}
+
+.upper-user {
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 3fr 24px auto auto 2fr;
+  align-items: center;
+  gap: 30px;
+}
+
+.upper-user-name {
+  grid-column: 4 / span 1;
+}
+
+.upper-user .profile-img {
+  grid-column: 3 / span 1;
+}
+
+.bell {
+  grid-column: 2 / span 1;
 }
