@@ -1,6 +1,9 @@
 # Admin Dashboard
 > The aim of this project was practicing my CSS Grid skills. The whole layout consists of many nested grids, no flexbox or anything similiar was used(although it would probably be easier for me to stick some flex containers here and there), just pure Grid.
 
+## Live version
+https://icorvus.github.io/admin-dashboard/
+
 ## Technologies Used
 - HTML5
 - CSS3
