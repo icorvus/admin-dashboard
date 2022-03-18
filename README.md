@@ -7,7 +7,7 @@
 
 ## Features
 - Entirely made using CSS Grid and it's fractional units.
-- Project section is made responsive using auto-fit method of repeat() function
+- "Your projects" section is made responsive using auto-fit method of repeat() function
 - The notification bell is animated when mouse hovers
 - Buttons have inversed colors when mouse hovers
 
